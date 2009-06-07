@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  description: MyString
+  latitude: 1.5
+  longitude: 1.5
+  chain: 
+
+two:
+  title: MyString
+  description: MyString
+  latitude: 1.5
+  longitude: 1.5
+  chain: 

@@ -1,0 +1,28 @@
+<p>
+  <b>Title:</b>
+  <%=h @store.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @store.description %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%=h @store.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @store.longitude %>
+</p>
+
+<p>
+  <b>Chain:</b>
+  <%=h @store.chain %>
+</p>
+
+
+<%= link_to 'Edit', edit_store_path(@store) %> |
+<%= link_to 'Back', stores_path %>

@@ -1,0 +1,17 @@
+<h1>Results for <span class="emphasis">Restaurant Chains</span></h1>
+
+<ul class="list">
+<% @chains.each do |chain| %>
+  <li class="list_item">
+	<span class="chain cup">&nbsp;
+	</span>
+	<h3><%= link_to h(chain.title), chain %></h3>
+	<p><%= h chain.description %></p>
+	<small><%= time_ago_in_words(chain.created_at)%> ago</small>
+  </li>
+<% end %>
+</ul>
+
+<div id="bottom_menu">
+	<%= link_to 'New chain', new_chain_path %>
+</div>

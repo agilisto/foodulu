@@ -1,0 +1,13 @@
+<p>
+  <b>Title:</b>
+  <%=h @chain.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @chain.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_chain_path(@chain) %> |
+<%= link_to 'Back', chains_path %>
