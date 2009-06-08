@@ -46,6 +46,28 @@ a:hover { color: #fff; background-color:#000; }
 	margin: 0px 20px;
 }
 
+/* TODO: Refactor into single notice*/
+
+.error {
+	color:black;
+	display:block;
+	margin:5px 5px 5px 5px;
+	padding:5px 5px 5px 5px;
+	border-top: 1px solid #FDFB2F;
+	border-bottom: 1px solid #FDFB2F;
+	background-color: rgb(253, 254, 195);
+}
+
+.notice {
+	color:black;
+	display:block;
+	margin:5px 5px 5px 5px;
+	padding:5px 5px 5px 5px;
+	border-top: 1px solid #5BC51E;
+	border-bottom: 1px solid #5BC51E;
+	background-color:#E5FDD9;
+}
+
 /* H */
 
 h4 {
@@ -63,6 +85,14 @@ h4 {
 .form input {
 	width:90%;
 	font-size:155%;
+}
+
+.form .check {
+	width:15px;
+}
+
+.form .submit {
+	width:100%;
 }
 
 .form h4 {

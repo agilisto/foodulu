@@ -28,7 +28,8 @@
 			<%= yield :subheader %>
 		</div>
 		
-		<p style="color: green"><%= flash[:notice] %></p>
+		<%= render :partial => 'application/flash_messages' %>
+
 		
 		<div id="content">
 			<%= yield %>
