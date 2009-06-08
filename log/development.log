@@ -3152,3 +3152,1535 @@ Rendered chains/_chain (0.4ms)
 Rendered chains/_chain (0.5ms)
 Rendered chains/_chain (0.5ms)
 Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:01:05) [GET]
+Rendering template within layouts/application
+Rendering users/new
+
+ActionView::TemplateError (undefined method `name' for #<UsersController:0x21afbb0>) on line #9 of app/views/layouts/application.html.erb:
+6: 	 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+7:     <meta id="viewport" name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+8:   <title>
+9: 	<%= @page_title || "Foodulu #{controller.name} : #{action_name}" %>
+10:   </title>
+11:   <%= stylesheet_link_tag 'foodulu' %>
+12: </head>
+
+    app/views/layouts/application.html.erb:9
+
+Rendered rescues/_trace (62.1ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:01:15) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:01:55) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:02:14) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (36.3ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 57ms (View: 49, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:03:22) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:03:35) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:04:13) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 00:04:33) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:05:24) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.4ms)
+Rendered chains/_chain (0.9ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:08:02) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 81ms (View: 77, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:08:10) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:09:12) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:09:26) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:09:34) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:15:18) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:15:55) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:15:57) [GET]
+  [4;36;1mChain Load (1.0ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.4ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.6ms)
+Completed in 22ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:16:48) [GET]
+  [4;36;1mChain Load (1.0ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.3ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.6ms)
+Completed in 27ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:17:06) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:17:07) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 90ms (View: 88, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:17:10) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.1ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:18:35) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:19:21) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 16ms (View: 8, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:19:44) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:20:10) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:20:36) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:20:38) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 16ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:21:45) [GET]
+  [4;36;1mChain Load (1.0ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+
+ActionView::TemplateError (undefined method `authenticated?' for #<ActionView::Base:0x21b6e9c>) on line #23 of app/views/layouts/application.html.erb:
+20: 				<li><%= link_to 'Home', '/' %></li>
+21: 				<li><%= link_to 'Chains', chains_path %></li>
+22: 				<li><%= link_to 'Stores', chains_path %></li>
+23: 				<li class="right"><%= login_account %></li>
+24: 			</ul>
+25: 		</div>
+26: 
+
+    app/helpers/application_helper.rb:8:in `login_account'
+    app/views/layouts/application.html.erb:23
+    app/controllers/chains_controller.rb:7:in `index'
+
+Rendered rescues/_trace (49.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:21:50) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+
+ActionView::TemplateError (undefined method `is_authenticated?' for #<ActionView::Base:0x24195a4>) on line #23 of app/views/layouts/application.html.erb:
+20: 				<li><%= link_to 'Home', '/' %></li>
+21: 				<li><%= link_to 'Chains', chains_path %></li>
+22: 				<li><%= link_to 'Stores', chains_path %></li>
+23: 				<li class="right"><%= login_account %></li>
+24: 			</ul>
+25: 		</div>
+26: 
+
+    app/helpers/application_helper.rb:8:in `login_account'
+    app/views/layouts/application.html.erb:23
+    app/controllers/chains_controller.rb:7:in `index'
+
+Rendered rescues/_trace (45.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:22:05) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+
+ActionView::TemplateError (undefined method `logged_in?' for #<ActionView::Base:0x203e628>) on line #23 of app/views/layouts/application.html.erb:
+20: 				<li><%= link_to 'Home', '/' %></li>
+21: 				<li><%= link_to 'Chains', chains_path %></li>
+22: 				<li><%= link_to 'Stores', chains_path %></li>
+23: 				<li class="right"><%= login_account %></li>
+24: 			</ul>
+25: 		</div>
+26: 
+
+    app/helpers/application_helper.rb:8:in `login_account'
+    app/views/layouts/application.html.erb:23
+    app/controllers/chains_controller.rb:7:in `index'
+
+Rendered rescues/_trace (46.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ActionController::Base#index (for 127.0.0.1 at 2009-06-09 00:22:33) [GET]
+
+TypeError (wrong argument type Symbol (expected Module)):
+  app/controllers/application_controller.rb:7:in `include'
+  app/controllers/application_controller.rb:7
+  app/controllers/chains_controller.rb:1
+
+Rendered rescues/_trace (37.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:22:41) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+
+ActionView::TemplateError (undefined local variable or method `sessions_path' for #<ActionView::Base:0x1ffa39c>) on line #23 of app/views/layouts/application.html.erb:
+20: 				<li><%= link_to 'Home', '/' %></li>
+21: 				<li><%= link_to 'Chains', chains_path %></li>
+22: 				<li><%= link_to 'Stores', chains_path %></li>
+23: 				<li class="right"><%= login_account %></li>
+24: 			</ul>
+25: 		</div>
+26: 
+
+    app/helpers/application_helper.rb:11:in `login_account'
+    app/views/layouts/application.html.erb:23
+    app/controllers/chains_controller.rb:7:in `index'
+
+Rendered rescues/_trace (46.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:24:09) [GET]
+  [4;36;1mChain Load (0.9ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.8ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:24:20) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:24:22) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 79ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-06-09 00:24:25) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY=", "login"=>"ar", "password"=>""}
+Failed login for 'ar' from 127.0.0.1 at Mon Jun 08 22:24:25 UTC 2009
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-06-09 00:24:28) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY=", "login"=>"ar", "password"=>"maa"}
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE (email = 'ar' OR login = 'ar') AND (users.state = 'active') LIMIT 1[0m
+Failed login for 'ar' from 127.0.0.1 at Mon Jun 08 22:24:28 UTC 2009
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-06-09 00:25:01) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY=", "login"=>"ar", "password"=>"maa"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE (email = 'ar' OR login = 'ar') AND (users.state = 'active') LIMIT 1[0m
+Failed login for 'ar' from 127.0.0.1 at Mon Jun 08 22:25:01 UTC 2009
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://localhost/session]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:25:08) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.4ms)
+Rendered chains/_chain (0.8ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:25:09) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:25:17) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.2ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 88ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:25:33) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:26:10) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:26:17) [GET]
+  [4;36;1mChain Load (1.0ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:26:21) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:26:34) [GET]
+  [4;36;1mChain Load (0.9ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:26:42) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:26:44) [GET]
+  [4;36;1mChain Load (0.9ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:27:07) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:27:54) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:28:01) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:28:28) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 78ms (View: 76, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:28:38) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:28:41) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:28:55) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:29:31) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.1ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:29:33) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:29:39) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.4ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (1.6ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.5ms)
+Completed in 19ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:29:40) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:29:46) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:30:01) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:30:58) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:31:16) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:31:20) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:31:24) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:31:31) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (1.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (3.3ms)
+Completed in 25ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:31:34) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:31:53) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:32:10) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.6ms)
+Rendered chains/_chain (0.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (76.3ms)
+Rendered chains/_chain (0.5ms)
+Completed in 93ms (View: 86, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:32:12) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:32:15) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:32:46) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:33:01) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:33:07) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:33:09) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:33:14) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:33:21) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:33:23) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:33:27) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:33:29) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:33:30) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:33:31) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:34:06) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:34:13) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:34:16) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:34:27) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:34:29) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:34:39) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:34:43) [GET]
+  Parameters: {"page"=>"2"}
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 5[0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.3ms)
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains?page=2]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:34:45) [GET]
+  Parameters: {"page"=>"1"}
+  [4;35;1mChain Load (0.9ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/chains?page=1]
+
+
+Processing ChainsController#new (for 127.0.0.1 at 2009-06-09 00:34:51) [GET]
+Rendering template within layouts/application
+Rendering chains/new
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/chains/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:34:53) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:36:54) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 00:39:11) [GET]
+  [4;35;1mChain Load (0.8ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:43:19) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:43:22) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-09 00:43:35) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing SessionsController#new (for 192.168.16.51 at 2009-06-09 00:43:37) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 110ms (View: 108, DB: 0) | 200 OK [http://192.168.16.102/session/new]
+
+
+Processing UsersController#new (for 192.168.16.51 at 2009-06-09 00:43:40) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://192.168.16.102/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:44:19) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:44:48) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 00:45:25) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>"ar"}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 00:45:46) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>"ar"}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 00:45:59) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>"ar"}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 28ms (View: 6, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 00:46:13) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>"ar"}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 23ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 00:46:33) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>"ar"}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 26ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 192.168.16.51 at 2009-06-09 00:46:49) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"WfaIRmp9wzKmzgcfBZUhW/xWw0aL93SuhorR3ZSpStw="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 28ms (View: 6, DB: 0) | 200 OK [http://192.168.16.102/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 00:47:13) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>"ar"}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'ar') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 00:54:33) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-06-09 00:54:37) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY=", "login"=>"", "password"=>""}
+Failed login for '' from 127.0.0.1 at Mon Jun 08 22:54:37 UTC 2009
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-06-09 00:56:57) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY=", "login"=>"", "password"=>""}
+Failed login for '' from 127.0.0.1 at Mon Jun 08 22:56:57 UTC 2009
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/session]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 00:56:59) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 00:57:06) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 00:59:17) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:00:05) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:00:58) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:02:13) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 26ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:03:10) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:03:26) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:03:35) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 26ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:04:06) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 29ms (View: 8, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 01:04:09) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:04:10) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:04:15) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 26ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:05:05) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:05:38) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 26ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 01:05:45) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:05:46) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:05:55) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"123", "password"=>"123", "login"=>"armanddp", "email"=>"armanddp@agil"}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = 'armanddp') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'armanddp@agil') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = 'armanddp') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'armanddp@agil') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 01:06:18) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 01:06:19) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:06:21) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:06:54) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 28ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 192.168.16.51 at 2009-06-09 01:07:14) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"WfaIRmp9wzKmzgcfBZUhW/xWw0aL93SuhorR3ZSpStw="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 4, DB: 0) | 200 OK [http://192.168.16.102/users]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 01:08:24) [GET]
+  [4;35;1mChain Load (0.8ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 01:08:27) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:08:28) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:09:20) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:10:33) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:10:35) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:10:49) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:11:16) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:11:32) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:11:43) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:11:54) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:12:40) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:13:01) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:13:11) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 01:13:17) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:13:19) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:13:32) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:14:00) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:14:32) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:14:45) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:14:49) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 26ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-06-09 01:15:37) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"43c7JZ7rIyHdaWRk7+1+v4rVPlPO/XJx94AbyAqY2aY="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 25ms (View: 4, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 01:15:41) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/session/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:15:43) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:15:56) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:16:26) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing SessionsController#new (for 192.168.16.51 at 2009-06-09 01:16:37) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://192.168.16.102/session/new]
+
+
+Processing UsersController#new (for 192.168.16.51 at 2009-06-09 01:16:39) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://192.168.16.102/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:17:30) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:17:41) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:17:48) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 192.168.16.51 at 2009-06-09 01:17:55) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://192.168.16.102/users/new]
+
+
+Processing UsersController#create (for 192.168.16.51 at 2009-06-09 01:18:03) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"", "password"=>"", "login"=>"", "email"=>""}, "commit"=>"Sign up", "authenticity_token"=>"WfaIRmp9wzKmzgcfBZUhW/xWw0aL93SuhorR3ZSpStw="}
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = '') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 4, DB: 0) | 200 OK [http://192.168.16.102/users]
+
+
+Processing SessionsController#new (for 192.168.16.51 at 2009-06-09 01:18:20) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://192.168.16.102/session/new]
+
+
+Processing UsersController#new (for 192.168.16.51 at 2009-06-09 01:18:23) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://192.168.16.102/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:18:35) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 192.168.16.51 at 2009-06-09 01:18:38) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://192.168.16.102/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:18:57) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:18:59) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:19:33) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:20:02) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-09 01:20:24) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#new (for 192.168.16.51 at 2009-06-09 01:20:27) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://192.168.16.102/users/new]

@@ -17,29 +17,22 @@ a { color: #000; }
 a:visited { color: #000; }
 a:hover { color: #fff; background-color:#000; }
 
-.fieldWithErrors {
-  padding: 2px;
-  background-color: red;
-  display: table;
+.fieldWithErrors input {
+	background-color: #FDFB2F;
 }
 
 #errorExplanation {
-  width: 400px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 12px;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
+	background: rgb(253, 254, 195);
+	border: 1px solid #FDFB2F;
+	margin: 0px auto 20px auto;
+	padding: 10px;
+	width: 90%;
 }
 
 #errorExplanation h2 {
-  text-align: left;
-  font-weight: bold;
-  padding: 5px 5px 5px 15px;
-  font-size: 12px;
-  margin: -7px;
-  background-color: #c00;
-  color: #fff;
+	color: black;
+	font-size: 1em;
+	margin: 5px 0px;
 }
 
 #errorExplanation p {
@@ -49,9 +42,45 @@ a:hover { color: #fff; background-color:#000; }
 }
 
 #errorExplanation ul li {
-  font-size: 12px;
-  list-style: square;
+	list-style-type: disc;
+	margin: 0px 20px;
 }
+
+/* H */
+
+h4 {
+	margin:0;
+}
+
+/* Forms */
+
+.form {
+	background-color: #F8F8F8;
+	padding:0px 5px 5px 5px;
+	margin:5px;
+}
+
+.form input {
+	width:90%;
+	font-size:155%;
+}
+
+.form h4 {
+	font-size:1em;
+	border-bottom: 1px solid #D2D0D0;
+	background-color:#F0F0F0;
+}
+
+dd {
+	margin:0px;
+	
+}
+
+dl {
+	
+}
+
+/* Header */
 
 #header {
 	background-color: #272727;
@@ -76,6 +105,11 @@ a:hover { color: #fff; background-color:#000; }
 
 #menu li {
 	float:left;
+}
+
+#menu .right {
+	float:right;
+	padding: 0px 5px 0px 0px;
 }
 
 #bottom_menu {
@@ -142,16 +176,6 @@ h1 {
 
 h3 {
 	margin: 0 0 0 0;
-}
-
-content {
-	
-}
-
-.emphasis {
-}
-
-#primary {	
 }
 
 .list {

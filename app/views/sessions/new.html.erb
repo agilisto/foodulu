@@ -1,16 +1,26 @@
-<h1>Log In</h1>
+<% @page_title = "You've got to login" %>
+<% content_for :subheader do %>
+	<h1>Login to your Foodulu Account</h1>
+	<%= link_to 'Not member yet?', new_user_path %>
+<% end -%>
 
 <% form_tag session_path do -%>
-<p><%= label_tag 'login' %><br />
-<%= text_field_tag 'login', @login %></p>
+	<dl id="login">
+		<dt>
+			<%= label_tag 'login' %>
+		</dt>
+		<dd>
+			<%= text_field_tag 'login', @login %>
+		</dd>
+	</dl>
+	<p><%= label_tag 'password' %><br/>
+	<%= password_field_tag 'password', nil %></p>
 
-<p><%= label_tag 'password' %><br/>
-<%= password_field_tag 'password', nil %></p>
 
-<!-- Uncomment this if you want this functionality
-<p><%= label_tag 'remember_me', 'Remember me' %>
-<%= check_box_tag 'remember_me', '1', @remember_me %></p>
--->
+	<p><%= label_tag 'remember_me', 'Remember me' %>
+	<%= check_box_tag 'remember_me', '1', @remember_me %></p>
 
-<p><%= submit_tag 'Log in' %></p>
+
+	<p><%= submit_tag 'Log in' %></p>
+	</dl>
 <% end -%>
