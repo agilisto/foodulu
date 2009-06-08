@@ -3076,3 +3076,79 @@ Migrating to CreateUsers (20090608213130)
   [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("stores")[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
   [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_users_on_login')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateChains (20090607165139)
+Migrating to CreateStores (20090607165227)
+Migrating to CreateUsers (20090608213130)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("chains")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("stores")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_users_on_login')[0m
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:51:13) [GET]
+  [4;36;1mChain Load (1.0ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (62.1ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 87ms (View: 79, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-08 23:51:18) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-06-08 23:53:58) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:54:25) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
