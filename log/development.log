@@ -5170,3 +5170,89 @@ Rendering template within layouts/application
 Rendering sessions/new
 Rendered application/_flash_messages (0.1ms)
 Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/session]
+
+
+Processing SessionsController#show (for 127.0.0.1 at 2009-06-09 01:48:02) [GET]
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, and new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-06-09 01:48:06) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered application/_flash_messages (0.6ms)
+Completed in 20ms (View: 17, DB: 0) | 200 OK [http://localhost/sessions/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-06-09 01:48:11) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"jjj5r0EwKqKsDJ54FJ4+CwV5+3AgIwiF5OMcARdNzJA=", "login"=>"armanddp", "password"=>"th3a"}
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'armanddp') AND (users.state = 'active') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 23ms (DB: 1) | 302 Found [http://localhost/session]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 01:48:11) [GET]
+  [4;35;1mChain Load (0.8ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (36.7ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"users", :id=>nil}, expected: {:action=>"show", :controller=>"users"}, diff: {:id=>nil}) on line #23 of app/views/layouts/application.html.erb:
+20: 				<li><%= link_to 'Home', '/' %></li>
+21: 				<li><%= link_to 'Chains', chains_path %></li>
+22: 				<li><%= link_to 'Stores', chains_path %></li>
+23: 				<li class="right"><%= login_account %></li>
+24: 			</ul>
+25: 		</div>
+26: 
+
+    (eval):16:in `user_path'
+    app/helpers/application_helper.rb:12:in `login_account'
+    app/views/layouts/application.html.erb:23
+    app/controllers/chains_controller.rb:7:in `index'
+
+Rendered rescues/_trace (51.3ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-09 01:49:07) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendered application/_flash_messages (0.1ms)
+Completed in 34ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-06-09 01:49:15) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionController::UnknownAction (No action responded to show. Actions: activate, create, destroy, new, purge, suspend, and unsuspend):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-06-09 01:49:20) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionController::UnknownAction (No action responded to edit. Actions: activate, create, destroy, new, purge, suspend, and unsuspend):
+  
+
+Rendering rescues/layout (not_found)

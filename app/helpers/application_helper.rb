@@ -9,7 +9,7 @@ module ApplicationHelper
     unless logged_in?
       link_to 'Login', new_session_path
     else
-      link_to 'Account', user_path(@current_user)
+      link_to 'Account', user_path(current_user)
     end
   end
 end
