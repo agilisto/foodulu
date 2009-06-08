@@ -2055,3 +2055,1024 @@ Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 20:48:38) [GET]
 Rendering template within layouts/application
 Rendering chains/index
 Completed in 115ms (View: 106, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 21:55:13) [GET]
+  [4;36;1mChain Load (0.9ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 172ms (View: 165, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:26:53) [GET]
+  [4;36;1mChain Load (0.9ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (88.5ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 114ms (View: 106, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:30:51) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 24ms (View: 16, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:31:22) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (1.0ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Completed in 28ms (View: 10, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:31:53) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.1ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 20ms (View: 13, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:32:00) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:32:29) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:32:42) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 86ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:33:42) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:34:08) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (1.2ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 22ms (View: 12, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:34:38) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 16ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:35:02) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 22:36:16) [GET]
+  [4;36;1mChain Load (1.0ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.0ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 92ms (View: 82, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:36:45) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 22:36:47) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:37:52) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.7ms)
+Completed in 84ms (View: 78, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 22:37:58) [GET]
+  [4;36;1mChain Load (0.9ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.4ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.7ms)
+Completed in 22ms (View: 12, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:38:25) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:38:57) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 22:39:00) [GET]
+  [4;36;1mChain Load (1.0ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.2ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.6ms)
+Completed in 21ms (View: 12, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:39:21) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 22:39:23) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:40:02) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 22:40:04) [GET]
+  [4;36;1mChain Load (1.1ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.1ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:41:03) [GET]
+  Parameters: {"page"=>"2"}
+  [4;36;1mChain Load (0.5ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 5[0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (11.2ms)
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/chains?page=2]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:41:08) [GET]
+  Parameters: {"page"=>"1"}
+  [4;35;1mChain Load (1.4ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.1ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.8ms)
+Completed in 22ms (View: 13, DB: 2) | 200 OK [http://localhost/chains?page=1]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:41:10) [GET]
+  Parameters: {"page"=>"2"}
+  [4;35;1mChain Load (0.5ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 5[0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.6ms)
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains?page=2]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:41:12) [GET]
+  Parameters: {"page"=>"1"}
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains?page=1]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:41:25) [GET]
+  Parameters: {"page"=>"2"}
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 5[0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.2ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains?page=2]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:41:26) [GET]
+  Parameters: {"page"=>"1"}
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains?page=1]
+
+
+Processing ChainsController#new (for 127.0.0.1 at 2009-06-08 22:41:57) [GET]
+Rendering template within layouts/application
+Rendering chains/new
+Completed in 46ms (View: 41, DB: 0) | 200 OK [http://localhost/chains/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:41:59) [GET]
+  [4;35;1mChain Load (0.9ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.2ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.6ms)
+Completed in 21ms (View: 11, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:42:22) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:42:34) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 110ms (View: 103, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 22:42:39) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#new (for 127.0.0.1 at 2009-06-08 22:47:15) [GET]
+Rendering template within layouts/application
+Rendering chains/new
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/chains/new]
+
+
+Processing ChainsController#new (for 127.0.0.1 at 2009-06-08 22:54:14) [GET]
+Rendering template within layouts/application
+Rendering chains/new
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/chains/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:54:46) [GET]
+  [4;35;1mChain Load (0.8ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.4ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ChainsController#new (for 127.0.0.1 at 2009-06-08 22:55:09) [GET]
+Rendering template within layouts/application
+Rendering chains/new
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/chains/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 22:57:36) [GET]
+  [4;35;1mChain Load (0.9ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.9ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.6ms)
+Completed in 22ms (View: 12, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:00:56) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:01:32) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.6ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:01:44) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.1ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#show (for 192.168.16.51 at 2009-06-08 23:01:48) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 47ms (View: 39, DB: 0) | 200 OK [http://192.168.16.102/chains/2]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:03:59) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.6ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 20ms (View: 12, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#new (for 127.0.0.1 at 2009-06-08 23:04:23) [GET]
+Rendering template within layouts/application
+Rendering chains/new
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/chains/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:04:24) [GET]
+  [4;36;1mChain Load (1.1ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.3ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.8ms)
+Completed in 21ms (View: 12, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#show (for 127.0.0.1 at 2009-06-08 23:05:48) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mChain Load (0.2ms)[0m   [0;1mSELECT * FROM "chains" WHERE ("chains"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/chains/5]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:05:50) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:06:43) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.6ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#show (for 127.0.0.1 at 2009-06-08 23:07:41) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/chains/3]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:07:43) [GET]
+  [4;36;1mChain Load (0.9ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.4ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.7ms)
+Completed in 21ms (View: 12, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:08:43) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:08:53) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.1ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#show (for 127.0.0.1 at 2009-06-08 23:09:27) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mChain Load (0.2ms)[0m   [0;1mSELECT * FROM "chains" WHERE ("chains"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/chains/4]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:09:36) [GET]
+  [4;35;1mChain Load (0.8ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.5ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (1.3ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Completed in 21ms (View: 11, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#show (for 192.168.16.51 at 2009-06-08 23:09:49) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://192.168.16.102/chains/5]
+
+
+Processing ChainsController#show (for 192.168.16.51 at 2009-06-08 23:10:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mChain Load (0.2ms)[0m   [0;1mSELECT * FROM "chains" WHERE ("chains"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://192.168.16.102/chains/1]
+
+
+Processing ChainsController#show (for 192.168.16.51 at 2009-06-08 23:10:04) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://192.168.16.102/chains/3]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:10:52) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Completed in 18ms (View: 11, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:10:59) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#show (for 192.168.16.51 at 2009-06-08 23:11:04) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mChain Load (0.2ms)[0m   [0;1mSELECT * FROM "chains" WHERE ("chains"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 97ms (View: 3, DB: 0) | 200 OK [http://192.168.16.102/chains/2]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:11:30) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 16ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:11:42) [GET]
+  [4;35;1mChain Load (0.9ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.3ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.6ms)
+Completed in 21ms (View: 12, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#show (for 192.168.16.51 at 2009-06-08 23:11:46) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://192.168.16.102/chains/3]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:13:06) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.2ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:13:27) [GET]
+  Parameters: {"page"=>"2"}
+  [4;36;1mChain Load (0.5ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 5[0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.6ms)
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://192.168.16.102/chains?page=2]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:14:10) [GET]
+  [4;35;1mChain Load (1.0ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.3ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 27ms (View: 16, DB: 2) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:15:11) [GET]
+  Parameters: {"page"=>"1"}
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.2ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://192.168.16.102/chains?page=1]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:16:24) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (6.1ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 21ms (View: 15, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:16:27) [GET]
+  Parameters: {"page"=>"1"}
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 86ms (View: 9, DB: 1) | 200 OK [http://192.168.16.102/chains?page=1]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:16:29) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.9ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://192.168.16.102/]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:16:31) [GET]
+  [4;35;1mChain Load (0.9ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.4ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:17:04) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.1ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Completed in 21ms (View: 12, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:17:07) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.7ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:17:35) [GET]
+  Parameters: {"page"=>"2"}
+  [4;35;1mChain Load (0.5ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 5[0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.5ms)
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://192.168.16.102/chains?page=2]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:17:37) [GET]
+  Parameters: {"page"=>"1"}
+  [4;36;1mChain Load (1.5ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (2.8ms)
+Rendered chains/_chain (0.5ms)
+Completed in 22ms (View: 13, DB: 2) | 200 OK [http://192.168.16.102/chains?page=1]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:17:41) [GET]
+  Parameters: {"page"=>"2"}
+  [4;36;1mChain Load (0.5ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 5[0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.8ms)
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://192.168.16.102/chains?page=2]
+
+
+Processing ChainsController#show (for 192.168.16.51 at 2009-06-08 23:17:43) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://192.168.16.102/chains/6]
+
+
+Processing ChainsController#index (for 192.168.16.51 at 2009-06-08 23:17:46) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 16ms (View: 8, DB: 1) | 200 OK [http://192.168.16.102/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:19:31) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (28.0ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (9.3ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.5ms)
+Completed in 66ms (View: 42, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:19:48) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (3.8ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.4ms)
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ChainsController#show (for 127.0.0.1 at 2009-06-08 23:19:56) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mChain Load (0.2ms)[0m   [0;1mSELECT * FROM "chains" WHERE ("chains"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/chains/4]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:19:58) [GET]
+  [4;35;1mChain Load (1.0ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (5.2ms)
+Rendered chains/_chain (0.7ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.6ms)
+Completed in 21ms (View: 11, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 23:22:37) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Rendered chains/_chain (4.0ms)
+Rendered chains/_chain (0.6ms)
+Rendered chains/_chain (0.4ms)
+Rendered chains/_chain (0.5ms)
+Rendered chains/_chain (0.5ms)
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/chains]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateChains (20090607165139)
+Migrating to CreateStores (20090607165227)
+Migrating to CreateUsers (20090608213130)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(40), "name" varchar(100) DEFAULT '', "email" varchar(100), "crypted_password" varchar(40), "salt" varchar(40), "created_at" datetime, "updated_at" datetime, "remember_token" varchar(40), "remember_token_expires_at" datetime, "activation_code" varchar(40), "activated_at" datetime, "state" varchar(255) DEFAULT 'passive', "deleted_at" datetime) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE UNIQUE INDEX "index_users_on_login" ON "users" ("login")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090608213130')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("chains")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("stores")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_users_on_login')[0m

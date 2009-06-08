@@ -1,7 +1,7 @@
 body { background-color: #fff; color: #666; }
 
 body, p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: helvetica, sans-serif;
   font-size:   13px;
   line-height: 18px;
   padding: 0px;
@@ -79,19 +79,20 @@ a:hover { color: #fff; background-color:#000; }
 }
 
 #bottom_menu {
-	background-color: #E5FDD9;
+	margin-top:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color: #5BC51E;
 }
 
 #bottom_menu a {
-	background-color:#E5FDD9;
-	color:#72BF2B;
-	font-size: 0.75em;
+	color:#fff;
 	display:block;
 	padding:0px 5px;
 }
 
 #bottom_menu a:hover {
-	background-color:#E5FDD9;
+	background-color:#000;
 	color:#fff;
 }
 
@@ -118,7 +119,6 @@ li {
 #subheader li {
 	float:left;
 	color:#fff;
-	font-size: 0.75em;
 }
 
 #subheader a {
@@ -159,6 +159,16 @@ content {
 	list-style: none;
 }
 
+/*
+.list a, .list a:visited {
+	text-decoration: none;
+	color:#666;
+}
+
+.list a:hover {
+	background-color:#E9FBDA;
+}
+*/
 .list_item {
 	padding-top:5px;
 	border-bottom: 1px solid #999;
@@ -189,8 +199,9 @@ small {
 
 /* Pagination */
 .digg_pagination {
-
+	font-size:75%;
 	background: white;
+	padding-left:5px;
 	/* self-clearing method: */ }
 	.digg_pagination a, .digg_pagination span {
 	  padding: .2em .5em;
@@ -233,4 +244,15 @@ small {
 	  height: 1%; }
 	*:first-child+html .digg_pagination {
 	  overflow: hidden; 
+}
+
+#footer {
+	padding:5px;
+	font-size:75%;
+	background-color: #272727;
+	color: #fff;	
+}
+
+#footer a, #footer a:hover {
+	color:#fff;
 }

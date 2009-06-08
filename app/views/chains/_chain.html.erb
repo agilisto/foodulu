@@ -1,0 +1,7 @@
+<li class="list_item <%= cycle('odd', 'even') %>">
+	<span class="chain cup">&nbsp;
+	</span>
+	<h3><%= link_to h(chain.title), chain %></h3>
+	<p><%= h chain.description %></p>
+	<small>Last updated <%= time_ago_in_words(chain.updated_at)%> ago</small>
+</li>

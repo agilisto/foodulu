@@ -3,7 +3,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta id="viewport" name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
   <title>Stores: <%= controller.action_name %></title>
   <%= stylesheet_link_tag 'foodulu' %>
 </head>
@@ -29,7 +30,10 @@
 		<div id="content">
 			<%= yield %>
 		</div>
-		
+		<div id="footer">
+			<div>Foodulu™ is Ehrmand ©2009</div>
+			<div><%= link_to 'Terms of Service', '#' %> | <%= link_to 'Privacy Policy', '#' %></div>
+		</div>
 	</div>
 </body>
 </html>
