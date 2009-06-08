@@ -1,4 +1,4 @@
-body { background-color: #fff; color: #333; }
+body { background-color: #fff; color: #666; }
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
@@ -14,7 +14,7 @@ pre {
 }
 
 a { color: #000; }
-a:visited { color: #666; }
+a:visited { color: #000; }
 a:hover { color: #fff; background-color:#000; }
 
 .fieldWithErrors {
@@ -66,7 +66,7 @@ a:hover { color: #fff; background-color:#000; }
 	color:#fff;
 }
 
-#menu a, #bottom_menu { 
+#menu a { 
 	display:block;
 	color: #fff; 
 	padding:5px 5px;
@@ -74,22 +74,74 @@ a:hover { color: #fff; background-color:#000; }
 #menu a:visited { color: #fff; }
 #menu a:hover { color: #fff; background-color:#000; }
 
-#menu ul {
-	list-style:none;
-}
-
 #menu li {
 	float:left;
 }
 
+#bottom_menu {
+	background-color: #E5FDD9;
+}
+
+#bottom_menu a {
+	background-color:#E5FDD9;
+	color:#72BF2B;
+	font-size: 0.75em;
+	display:block;
+	padding:0px 5px;
+}
+
+#bottom_menu a:hover {
+	background-color:#E5FDD9;
+	color:#fff;
+}
+
+ul {
+	list-style:none;
+}
+
+li {
+	margin-top:0px;
+}
+
+#subheader {
+	background-color:#E5FDD9;
+	padding:2px 7px 2px 7px;
+	color:#000;
+	border-bottom: 1px solid #999;	
+}
+
+#subheader ul {
+	display:block;
+	height:18px;
+}
+
+#subheader li {
+	float:left;
+	color:#fff;
+	font-size: 0.75em;
+}
+
+#subheader a {
+	background-color:#E5FDD9;
+	color:#72BF2B;
+	font-size: 1em;
+	display:block;
+	padding:0px 5px;
+}
+
+#subheader a:hover {
+	background-color:#E5FDD9;
+	color:#fff;
+}
 
 h1 {
 	font-size:0.75em;
-	background-color:#E5FDD9;
-	padding:5px 7px 5px 7px;
-	margin:5px 0px 5px 0px;
-	color:#000;
-	border-bottom: 1px solid #999;
+	padding:0px;
+	margin:0px;
+}
+
+h3 {
+	margin: 0.5em 0 0 0;
 }
 
 content {
@@ -118,10 +170,18 @@ li #even {
 li #odd {	
 }
 
+.list p {
+	font-size:0.75em;
+}
+
 .cup {
 	margin:2px 5px;
 	float:left;
 	height:40px;
 	width:40px;
 	background-image:url('../images/cup.png');
+}
+
+small {
+	font-size: 0.50em;
 }

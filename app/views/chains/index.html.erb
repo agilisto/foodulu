@@ -1,4 +1,11 @@
-<h1>Results for <span class="emphasis">Restaurant Chains</span></h1>
+<% content_for :subheader do %>
+	<h1>Results for <span class="emphasis">Restaurant Chains</span></h1>
+	<ul>
+		<li><%= link_to 'Area', '#' %></li>
+		<li><%= link_to 'Alphabetically', '#' %></li>
+		<li><%= link_to 'Popular', '#'%></li>
+	</ul>
+<% end %>
 
 <ul class="list">
 <% @chains.each do |chain| %>
@@ -7,11 +14,14 @@
 	</span>
 	<h3><%= link_to h(chain.title), chain %></h3>
 	<p><%= h chain.description %></p>
-	<small><%= time_ago_in_words(chain.created_at)%> ago</small>
+	<small>Last updated <%= time_ago_in_words(chain.updated_at)%> ago</small>
   </li>
 <% end %>
 </ul>
 
 <div id="bottom_menu">
-	<%= link_to 'New chain', new_chain_path %>
+	<ul>
+		<li><%= link_to 'Submit New Chain', new_chain_path %></li>
+		<li><%= link_to 'Home', new_chain_path %></li>
+	</ul>
 </div>

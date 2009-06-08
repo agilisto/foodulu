@@ -924,3 +924,664 @@ Processing ChainsController#index (for 192.168.0.106 at 2009-06-07 22:12:31) [GE
 Rendering template within layouts/application
 Rendering chains/index
 Completed in 12ms (View: 7, DB: 1) | 200 OK [http://192.168.0.139/chains]
+
+
+Processing StoresController#new (for 127.0.0.1 at 2009-06-08 08:05:58) [GET]
+Rendering template within layouts/application
+Rendering stores/new
+Completed in 107ms (View: 81, DB: 0) | 200 OK [http://localhost/stores/new]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:07:24) [GET]
+  [4;36;1mChain Load (0.8ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 192ms (View: 141, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:07:57) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:08:24) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:08:45) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:09:00) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:09:04) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:09:39) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:09:41) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:09:47) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:09:54) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:09:58) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:10:18) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:10:21) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:10:29) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:12:11) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:12:54) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:13:42) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 83ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:13:45) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:14:05) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:14:23) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:14:59) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:15:10) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:15:11) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:15:23) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:15:37) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:16:22) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 85ms (View: 80, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:16:56) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:17:05) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:21:17) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:23:15) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:24:28) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:27:05) [GET]
+  [4;35;1mChain Load (1.0ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 15ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:27:09) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#new (for 127.0.0.1 at 2009-06-08 08:29:35) [GET]
+Rendering template within layouts/application
+Rendering chains/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/chains/new]
+
+
+Processing ChainsController#create (for 127.0.0.1 at 2009-06-08 08:29:45) [POST]
+  Parameters: {"chain"=>{"title"=>"Primmi Piatto", "description"=>""}, "commit"=>"Create", "authenticity_token"=>"jjj5r0EwKqKsDJ54FJ4+CwV5+3AgIwiF5OMcARdNzJA="}
+  [4;35;1mChain Create (0.6ms)[0m   [0mINSERT INTO "chains" ("updated_at", "title", "description", "created_at") VALUES('2009-06-08 06:29:45', 'Primmi Piatto', '', '2009-06-08 06:29:45')[0m
+Redirected to http://localhost:3000/chains/4
+Completed in 118ms (DB: 1) | 302 Found [http://localhost/chains]
+
+
+Processing ChainsController#show (for 127.0.0.1 at 2009-06-08 08:29:45) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mChain Load (0.2ms)[0m   [0;1mSELECT * FROM "chains" WHERE ("chains"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/chains/4]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:29:46) [GET]
+  [4;35;1mChain Load (0.9ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#show (for 127.0.0.1 at 2009-06-08 08:31:58) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mChain Load (0.2ms)[0m   [0;1mSELECT * FROM "chains" WHERE ("chains"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/chains/4]
+
+
+Processing ChainsController#edit (for 127.0.0.1 at 2009-06-08 08:32:00) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering chains/edit
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/chains/4/edit]
+
+
+Processing ChainsController#update (for 127.0.0.1 at 2009-06-08 08:32:21) [PUT]
+  Parameters: {"chain"=>{"title"=>"Primmi Piatto", "description"=>"Primmi Piatto"}, "commit"=>"Update", "authenticity_token"=>"jjj5r0EwKqKsDJ54FJ4+CwV5+3AgIwiF5OMcARdNzJA=", "id"=>"4"}
+  [4;36;1mChain Load (0.2ms)[0m   [0;1mSELECT * FROM "chains" WHERE ("chains"."id" = 4) [0m
+  [4;35;1mChain Update (0.4ms)[0m   [0mUPDATE "chains" SET "description" = 'Primmi Piatto', "updated_at" = '2009-06-08 06:32:21' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/chains/4
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/chains/4]
+
+
+Processing ChainsController#show (for 127.0.0.1 at 2009-06-08 08:32:21) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mChain Load (0.2ms)[0m   [0;1mSELECT * FROM "chains" WHERE ("chains"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/chains/4]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:32:22) [GET]
+  [4;35;1mChain Load (0.9ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:33:09) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing StoresController#index (for 127.0.0.1 at 2009-06-08 08:33:12) [GET]
+  [4;35;1mStore Load (0.4ms)[0m   [0mSELECT * FROM "stores" [0m
+Rendering template within layouts/application
+Rendering stores/index
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/stores]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:34:03) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:34:05) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 100ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:34:31) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:34:41) [GET]
+  [4;35;1mChain Load (0.8ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:35:54) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:36:09) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:36:23) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:37:05) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:37:20) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:37:51) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:38:20) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:38:25) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:38:59) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:39:05) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:39:51) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:39:55) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:39:58) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:40:02) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:40:47) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:41:18) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:41:34) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#show (for 127.0.0.1 at 2009-06-08 08:41:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/chains/1]
+
+
+Processing ChainsController#edit (for 127.0.0.1 at 2009-06-08 08:41:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mChain Load (0.2ms)[0m   [0;1mSELECT * FROM "chains" WHERE ("chains"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering chains/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/chains/1/edit]
+
+
+Processing ChainsController#update (for 127.0.0.1 at 2009-06-08 08:42:15) [PUT]
+  Parameters: {"chain"=>{"title"=>"Nandos", "description"=>"Now that you’ve seen your first Rails application, you should feel free to update it and experiment on your own. But you don’t have to do everything without help. As you need assistance getting up and running with Rails, feel free to consult these support resources:"}, "commit"=>"Update", "authenticity_token"=>"jjj5r0EwKqKsDJ54FJ4+CwV5+3AgIwiF5OMcARdNzJA=", "id"=>"1"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 1) [0m
+  [4;36;1mChain Update (0.4ms)[0m   [0;1mUPDATE "chains" SET "description" = 'Now that you’ve seen your first Rails application, you should feel free to update it and experiment on your own. But you don’t have to do everything without help. As you need assistance getting up and running with Rails, feel free to consult these support resources:', "updated_at" = '2009-06-08 06:42:15' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/chains/1
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/chains/1]
+
+
+Processing ChainsController#show (for 127.0.0.1 at 2009-06-08 08:42:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/chains/1]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:42:17) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:42:24) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#edit (for 127.0.0.1 at 2009-06-08 08:42:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mChain Load (0.2ms)[0m   [0;1mSELECT * FROM "chains" WHERE ("chains"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering chains/edit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/chains/1/edit]
+
+
+Processing ChainsController#update (for 127.0.0.1 at 2009-06-08 08:42:53) [PUT]
+  Parameters: {"chain"=>{"title"=>"Nandos", "description"=>"Nandos Chicken!"}, "commit"=>"Update", "authenticity_token"=>"jjj5r0EwKqKsDJ54FJ4+CwV5+3AgIwiF5OMcARdNzJA=", "id"=>"1"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 1) [0m
+  [4;36;1mChain Update (0.4ms)[0m   [0;1mUPDATE "chains" SET "description" = 'Nandos Chicken!', "updated_at" = '2009-06-08 06:42:53' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/chains/1
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/chains/1]
+
+
+Processing ChainsController#show (for 127.0.0.1 at 2009-06-08 08:42:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/chains/1]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:42:54) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:44:28) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 88ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:44:46) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:45:02) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:45:34) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:46:14) [GET]
+  [4;35;1mChain Load (1.2ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:46:49) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:47:00) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:49:25) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:51:19) [GET]
+  [4;35;1mChain Load (0.6ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 17ms (View: 12, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:51:56) [GET]
+  [4;36;1mChain Load (0.6ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:52:01) [GET]
+  [4;35;1mChain Load (0.7ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#new (for 127.0.0.1 at 2009-06-08 08:52:12) [GET]
+Rendering template within layouts/application
+Rendering chains/new
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://localhost/chains/new]
+
+
+Processing ChainsController#create (for 127.0.0.1 at 2009-06-08 08:52:25) [POST]
+  Parameters: {"chain"=>{"title"=>"Curry Corner", "description"=>"For the best Indian Curry in town!"}, "commit"=>"Create", "authenticity_token"=>"jjj5r0EwKqKsDJ54FJ4+CwV5+3AgIwiF5OMcARdNzJA="}
+  [4;36;1mChain Create (0.4ms)[0m   [0;1mINSERT INTO "chains" ("updated_at", "title", "description", "created_at") VALUES('2009-06-08 06:52:26', 'Curry Corner', 'For the best Indian Curry in town!', '2009-06-08 06:52:26')[0m
+Redirected to http://localhost:3000/chains/5
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/chains]
+
+
+Processing ChainsController#show (for 127.0.0.1 at 2009-06-08 08:52:26) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mChain Load (0.2ms)[0m   [0mSELECT * FROM "chains" WHERE ("chains"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering chains/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/chains/5]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:52:27) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:52:31) [GET]
+  [4;35;1mChain Load (0.9ms)[0m   [0mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://localhost/chains]
+
+
+Processing ChainsController#index (for 127.0.0.1 at 2009-06-08 08:53:15) [GET]
+  [4;36;1mChain Load (0.7ms)[0m   [0;1mSELECT * FROM "chains" [0m
+Rendering template within layouts/application
+Rendering chains/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/chains]

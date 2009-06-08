@@ -14,13 +14,18 @@
 		</div>
 		<div id="menu">
 			<ul>
+				<li><%= link_to 'Home', '/' %></li>
 				<li><%= link_to 'Chains', chains_path %></li>
 				<li><%= link_to 'Stores', chains_path %></li>
 			</ul>
 		</div>
 
+		<div id="subheader">
+			<%= yield :subheader %>
+		</div>
+		
 		<p style="color: green"><%= flash[:notice] %></p>
-
+		
 		<div id="content">
 			<%= yield %>
 		</div>
