@@ -15,6 +15,8 @@ Rails::Initializer.run do |config|
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
 
   config.gem "geokit"
+  config.gem 'mislav-will_paginate', :version => '~> 2.3.8', :lib => 'will_paginate', 
+     :source => 'http://gems.github.com'
   # Specify gems that this application depends on and have them installed with rake gems:install
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"

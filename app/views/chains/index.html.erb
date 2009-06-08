@@ -9,15 +9,22 @@
 
 <ul class="list">
 <% @chains.each do |chain| %>
-  <li class="list_item">
-	<span class="chain cup">&nbsp;
-	</span>
-	<h3><%= link_to h(chain.title), chain %></h3>
-	<p><%= h chain.description %></p>
-	<small>Last updated <%= time_ago_in_words(chain.updated_at)%> ago</small>
-  </li>
+ 	 <li class="list_item <%= cycle('odd', 'even') %>">
+		<span class="chain cup">&nbsp;
+		</span>
+		<h3><%= link_to h(chain.title), chain %></h3>
+		<p><%= h chain.description %></p>
+		<small>Last updated <%= time_ago_in_words(chain.updated_at)%> ago</small>
+	  </li>
 <% end %>
 </ul>
+
+<div class="digg_pagination">
+      <div clas="page_info">
+        <%= page_entries_info @chains %>
+      </div>
+      <%= will_paginate @chains, :container => false %>
+    </div>
 
 <div id="bottom_menu">
 	<ul>

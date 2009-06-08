@@ -2,7 +2,7 @@ class ChainsController < ApplicationController
   # GET /chains
   # GET /chains.xml
   def index
-    @chains = Chain.all
+    @chains = Chain.paginate :page => params[:page]
 
     respond_to do |format|
       format.html # index.html.erb
