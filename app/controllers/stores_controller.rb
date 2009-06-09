@@ -1,8 +1,11 @@
 class StoresController < ApplicationController
+  
+  before_filter :find_parent, :only => [:index, :show,:new, :create]
+
   # GET /stores
   # GET /stores.xml
   def index
-    @stores = Store.all
+    @stores = @parent.all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -13,7 +16,7 @@ class StoresController < ApplicationController
   # GET /stores/1
   # GET /stores/1.xml
   def show
-    @store = Store.find(params[:id])
+    @store = @parent.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -24,7 +27,7 @@ class StoresController < ApplicationController
   # GET /stores/new
   # GET /stores/new.xml
   def new
-    @store = Store.new
+    @store = @parent.new
 
     respond_to do |format|
       format.html # new.html.erb
@@ -34,13 +37,13 @@ class StoresController < ApplicationController
 
   # GET /stores/1/edit
   def edit
-    @store = Store.find(params[:id])
+    @store = @parent.find(params[:id])
   end
 
   # POST /stores
   # POST /stores.xml
   def create
-    @store = Store.new(params[:store])
+    @store = @parent.new(params[:store])
 
     respond_to do |format|
       if @store.save
@@ -57,7 +60,7 @@ class StoresController < ApplicationController
   # PUT /stores/1
   # PUT /stores/1.xml
   def update
-    @store = Store.find(params[:id])
+    @store = @parent.find(params[:id])
 
     respond_to do |format|
       if @store.update_attributes(params[:store])
@@ -81,5 +84,13 @@ class StoresController < ApplicationController
       format.html { redirect_to(stores_url) }
       format.xml  { head :ok }
     end
+  end
+  
+  protected
+  def find_parent
+    @chain = Chain.find(params[:chain_id])
+    @parent = @chain.stores
+  rescue ActiveRecord::RecordNotFound
+    @parent = Store
   end
 end

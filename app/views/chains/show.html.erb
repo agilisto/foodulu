@@ -7,8 +7,8 @@
 <% content_for :bottom_menu do -%>
 	<ul>
 		<li><%= link_to 'Edit', edit_chain_path(@chain) %></li>
-		<li><%= link_to 'Stores', new_chain_path %></li>
-		<li><%= link_to 'Submit a Store', new_chain_path %></li>
+		<li><%= link_to 'Stores', chain_stores_path(@chain) %></li>
+		<li><%= link_to 'Submit a Store', new_chain_store_path(@chain) %></li>
 		<li><%= link_to 'Back to Chains', chains_path %></li>
 	</ul>
 <% end -%>
