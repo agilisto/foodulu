@@ -1,27 +1,31 @@
-<h1>New store</h1>
+<% @page_title = "Yet another great find" %>
 
 <% form_for(@store) do |f| %>
-  <%= f.error_messages %>
+	<div class="form">
+	<h4>Submitting a new Store <%= "for #{@chain.title}" if has_chain? %></h4>
+	<%= f.error_messages %>
+  	<dl>
+	    <dt><%= f.label :title %></dt>
+	    <dd><%= f.text_field :title %></dd>
 
-  <p>
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
-  </p>
-  <p>
-    <%= f.label :description %><br />
-    <%= f.text_field :description %>
-  </p>
-  <p>
-    <%= f.label :latitude %><br />
-    <%= f.text_field :latitude %>
-  </p>
-  <p>
-    <%= f.label :longitude %><br />
-    <%= f.text_field :longitude %>
-  </p>
+    	<dt><%= f.label :description %></dt>
+    	<dd><%= f.text_field :description %></dd>
+
+		<dt><%= f.label :latitude %></dt>
+    	<dd><%= f.text_field :latitude %></dd>
+    	
+		<dt><%= f.label :longitude %></dt>
+    	<dd><%= f.text_field :longitude %></dd>
+	</dl>
   <p>
     <%= f.submit 'Create' %>
   </p>
+	</div>
 <% end %>
 
-<%= link_to 'Back', stores_path %>
+<% content_for :bottom_menu do %>
+	<ul>
+		<li><%= link_to "Back to #{@chain.title}", @chain if has_chain? %></li>
+		<li><%= link_to 'Stores', stores_path %></li>
+	</ul>
+<% end %>
