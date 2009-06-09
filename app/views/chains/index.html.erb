@@ -18,9 +18,9 @@
   <%= will_paginate @chains, :container => false %>
 </div>
 
-<div id="bottom_menu">
+<% content_for :bottom_menu do -%>
 	<ul>
 		<li><%= link_to 'Submit New Chain', new_chain_path %></li>
 		<li><%= link_to 'Home', new_chain_path %></li>
 	</ul>
-</div>
+<% end -%>
