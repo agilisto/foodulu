@@ -1,6 +1,6 @@
 <% @page_title = "Yet another great find" %>
 
-<% form_for(@store) do |f| %>
+<% form_for([@chain, @store]) do |f| %>
 	<div class="form">
 	<h4>Submitting a new Store <%= "for #{@chain.title}" if has_chain? %></h4>
 	<%= f.error_messages %>

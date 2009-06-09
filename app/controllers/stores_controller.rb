@@ -1,11 +1,11 @@
 class StoresController < ApplicationController
   
-  before_filter :find_parent, :only => [:index, :show,:new, :create]
+  before_filter :find_parent, :only => [:index, :show, :new, :create]
 
   # GET /stores
   # GET /stores.xml
   def index
-    @stores = @parent.all
+    @stores = @parent.paginate :page => params[:page]
 
     respond_to do |format|
       format.html # index.html.erb
@@ -43,7 +43,8 @@ class StoresController < ApplicationController
   # POST /stores
   # POST /stores.xml
   def create
-    @store = @parent.new(params[:store])
+    debugger
+    @store = has_chain? ? @parent.build(params[:store]) : @parent.new(params[:store])
 
     respond_to do |format|
       if @store.save
@@ -88,9 +89,14 @@ class StoresController < ApplicationController
   
   protected
   def find_parent
+    debugger
     @chain = Chain.find(params[:chain_id])
     @parent = @chain.stores
   rescue ActiveRecord::RecordNotFound
     @parent = Store
+  end
+  
+  def has_chain?
+    @chain.instance_of? Chain
   end
 end
