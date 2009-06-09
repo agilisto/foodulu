@@ -1,4 +1,7 @@
 class ChainsController < ApplicationController
+  
+  before_filter :login_required, :except => [:index, :show]
+  
   # GET /chains
   # GET /chains.xml
   def index
