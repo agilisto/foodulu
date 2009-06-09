@@ -1,7 +1,8 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
   include 
-  def page_title
+  def page_title(page_title = nil)
+    @page_title = page_title if page_title
     @page_title || "Foodulu #{controller_name.capitalize} : #{action_name.capitalize}" 
   end
   

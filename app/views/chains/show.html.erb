@@ -1,13 +1,14 @@
-<p>
-  <b>Title:</b>
-  <%=h @chain.title %>
-</p>
+<% page_title(@chain.title) %>
 
-<p>
-  <b>Description:</b>
-  <%=h @chain.description %>
-</p>
+<ul class="list">
+	<%= render :partial => 'chain' %>
+</ul>
 
-
-<%= link_to 'Edit', edit_chain_path(@chain) %> |
-<%= link_to 'Back', chains_path %>
+<% content_for :bottom_menu do -%>
+	<ul>
+		<li><%= link_to 'Edit', edit_chain_path(@chain) %></li>
+		<li><%= link_to 'Stores', new_chain_path %></li>
+		<li><%= link_to 'Submit a Store', new_chain_path %></li>
+		<li><%= link_to 'Back to Chains', chains_path %></li>
+	</ul>
+<% end -%>
